@@ -85,7 +85,7 @@ function timer() {
 
 function iniciar() {
     timer()
-    interval = setInterval(timer, 1)
+    interval = setInterval(timer, 10)
 }
 
 
