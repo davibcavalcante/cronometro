@@ -3,3 +3,58 @@
     padding: 0px;
 }
 
+@font-face {
+    font-family: 'clock';
+    src: url(fontes/alarm\ clock.ttf) format(truetype);
+}
+
+body {
+    color: rgb(0, 0, 0);
+}
+
+section {
+    background-image: radial-gradient(circle, rgb(14, 13, 13), black);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+
+main {
+    max-width: 300px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+main > h1 {
+    text-align: center;
+    font-family: clock, 'Times New Roman', Times, serif;
+    font-size: 2.8em;
+    color: orange;
+    margin-bottom: 20px;
+}
+
+button {
+    color: white;
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    width: 80px;
+    height: 50px;
+    margin: 0px 5px 0px 10px;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.027);
+}
+
+.iniciar {
+    background-color: rgb(59, 196, 46);
+}
+
+.pausar {
+    background-color: gray;
+}
+
+.parar {
+    background-color: rgb(226, 33, 33);
+}

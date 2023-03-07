@@ -9,7 +9,7 @@ function twomlDigits(digit) {
     if (digit < 10) {
         return `00${digit}`
     } else if (digit < 100) {
-        return `0${digit}` 
+        return `0${digit}`
     } else {
         return digit
     }
