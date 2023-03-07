@@ -14,18 +14,8 @@ section {
     position: relative;
 }
 
-header > h1 {
-    max-width: 250px;
-    max-height: 50px;
-    margin-top: 30px;
-    position: absolute;
-
-    top: 20%;
-    left: 45%;
-}
-
 main {
-    max-width: 200px;
+    max-width: 180px;
     max-height: 300px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -41,7 +31,7 @@ main {
 }
 
 main > h1 {
-    font-size: 2em;
+    font-size: 1.6em;
     margin-bottom: 10px;
 }
 
